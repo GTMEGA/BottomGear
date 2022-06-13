@@ -1,6 +1,6 @@
-package com.github.thebrochacho.bottomgear.events;
+package com.github.matt159.bottomgear.events;
 
-import com.github.thebrochacho.bottomgear.data.Scores;
+import com.github.matt159.bottomgear.data.Scores;
 import cpw.mods.fml.common.eventhandler.Event;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraft.entity.EntityLiving;

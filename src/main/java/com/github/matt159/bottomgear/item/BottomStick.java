@@ -1,7 +1,7 @@
-package com.github.thebrochacho.bottomgear.item;
+package com.github.matt159.bottomgear.item;
 
 import baubles.api.IBauble;
-import com.github.thebrochacho.bottomgear.util.BGConfig;
+import com.github.matt159.bottomgear.util.BGConfig;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
@@ -10,6 +10,7 @@ import net.minecraft.block.Block;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.*;
+
 import net.minecraft.world.World;
 import net.minecraftforge.common.DimensionManager;
 import org.apache.commons.lang3.tuple.Triple;
@@ -20,7 +21,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.github.thebrochacho.bottomgear.BottomGear.MODID;
+import static com.github.matt159.bottomgear.BottomGear.MODID;
 
 public class BottomStick extends Item {
 
@@ -49,6 +50,9 @@ public class BottomStick extends Item {
                 printAllDims();
             else
                 printAllGearNames(getAllGearNames());
+        }
+        else {
+            //p_77659_3_.addChatMessage();
         }
 
         return p_77659_1_;

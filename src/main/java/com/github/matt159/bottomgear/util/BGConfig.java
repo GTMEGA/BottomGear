@@ -1,4 +1,4 @@
-package com.github.thebrochacho.bottomgear.util;
+package com.github.matt159.bottomgear.util;
 
 import net.minecraftforge.common.config.Configuration;
 

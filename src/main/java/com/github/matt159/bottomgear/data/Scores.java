@@ -1,4 +1,4 @@
-package com.github.thebrochacho.bottomgear.data;
+package com.github.matt159.bottomgear.data;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -41,7 +41,7 @@ public class Scores {
             if (score != null)
                 ret += score;
             else
-                output.append("\nCould not find item with unlocalized name: " + name);
+                output.append("\nCould not find item with unlocalized name: ").append(name);
         }
 
         if (!output.toString().isEmpty()) {

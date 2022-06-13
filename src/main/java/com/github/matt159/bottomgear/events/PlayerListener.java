@@ -1,10 +1,10 @@
-package com.github.thebrochacho.bottomgear.events;
+package com.github.matt159.bottomgear.events;
 
 import baubles.api.IBauble;
 import baubles.common.container.InventoryBaubles;
 import baubles.common.lib.PlayerHandler;
-import com.github.thebrochacho.bottomgear.data.Scores;
-import com.github.thebrochacho.bottomgear.util.BGConfig;
+import com.github.matt159.bottomgear.data.Scores;
+import com.github.matt159.bottomgear.util.BGConfig;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;

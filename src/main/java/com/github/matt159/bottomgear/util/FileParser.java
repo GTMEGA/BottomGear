@@ -1,6 +1,6 @@
-package com.github.thebrochacho.bottomgear.util;
+package com.github.matt159.bottomgear.util;
 
-import com.github.thebrochacho.bottomgear.data.Scores;
+import com.github.matt159.bottomgear.data.Scores;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.ItemStack;
 

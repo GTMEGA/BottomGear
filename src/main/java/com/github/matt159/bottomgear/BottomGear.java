@@ -1,10 +1,10 @@
-package com.github.thebrochacho.bottomgear;
+package com.github.matt159.bottomgear;
 
-import com.github.thebrochacho.bottomgear.events.MobSpawnListener;
-import com.github.thebrochacho.bottomgear.events.PlayerListener;
-import com.github.thebrochacho.bottomgear.item.BottomStick;
-import com.github.thebrochacho.bottomgear.util.BGConfig;
-import com.github.thebrochacho.bottomgear.util.FileParser;
+import com.github.matt159.bottomgear.events.MobSpawnListener;
+import com.github.matt159.bottomgear.events.PlayerListener;
+import com.github.matt159.bottomgear.item.BottomStick;
+import com.github.matt159.bottomgear.util.BGConfig;
+import com.github.matt159.bottomgear.util.FileParser;
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
